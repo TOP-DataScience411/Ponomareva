@@ -4,7 +4,6 @@ age = input('Введите год рождения: ')
 
 print('\n',name,sname+',',2024-int(age))
 
-# Результат:
 
 #Введите имя: Olga
 # Введите фамилию: Ponomareva
@@ -12,4 +11,6 @@ print('\n',name,sname+',',2024-int(age))
 
 # Olga Ponomareva, 34
 
+
+# ИТОГ: хорошо — 2/2
 
