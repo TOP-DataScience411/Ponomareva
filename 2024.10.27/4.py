@@ -4,8 +4,8 @@ number=int(input('\nВведите положительное трехзначн
 digit1=number//100
 
 # ИСПРАВИТЬ: избыточные вычисления, подумайте, как можно обойтись меньшим количеством действий
-digit2=(number%100)//10
-digit3=(number%100)%10
+digit2=(number//10)%10
+digit3=number%10
 
 print(f'Сумма цифр = {digit1+digit2+digit3}', end=f'\nПроизведение цифр = {digit1*digit2*digit3}')
 
