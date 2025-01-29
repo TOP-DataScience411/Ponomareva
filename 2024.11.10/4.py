@@ -1,5 +1,8 @@
 # ==========  4  ========== 
 def countable_nouns(number:int, noun:tuple[str, str, str]):
+	"""
+	Функция возвращает существительное русского языка, согласованное с числом.
+	"""
 	str_num=str(number)
 	figures=list(str_num)
 	last_fig=int(figures[-1])
